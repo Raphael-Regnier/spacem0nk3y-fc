@@ -1,0 +1,18 @@
+<section id="featured-articles" class="section featured-articles">
+	<div>
+
+		<div class="featured__intro">
+
+			<h2 class="featured__title">{{ featuredTitle }}</h2>
+			<p>{{ featuredText }}</p>
+
+		</div>
+		
+		<ul role="list" class="snippet__list">
+			{%- for post in collections.featured | reverse -%}
+				{% include 'block-snippet.njk' %}
+			{%- endfor %}
+		</ul>
+
+	</div>
+</section> 

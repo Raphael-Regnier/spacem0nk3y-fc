@@ -1,0 +1,18 @@
+---
+title: SpaceM0nk3y® // ARTICLES
+mainClass: log
+description: SpaceM0nk3y is Raphaël Regnier's atomic template for web projects.
+layout: 'base.njk'
+---
+
+<section class="section">
+
+	<h1 class="section-title">Recent articles</h1>
+	
+	<ul role="list" class="snippet__list">
+		{%- for post in collections.post | reverse -%}
+			{% include 'block-snippet.njk' %}
+		{%- endfor %}
+	</ul>
+
+</section>

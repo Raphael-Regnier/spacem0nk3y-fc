@@ -1,0 +1,6 @@
+{
+	"layout": "section-article.njk",
+	"tags": "post",
+	"mainClass": "article",
+	"btnText": "Continue Reading"
+}

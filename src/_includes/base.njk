@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	{% include '_head.njk' %}
+
+	<body>
+
+		{% include 'header.njk' %}
+
+		<main id="mainwrapper" role="main" class="{{ mainClass }}">
+			<div class="container">
+				{{ content | safe }}
+			</div>
+		</main>
+
+		{% include 'footer.njk' %}
+
+		{% include '_foot.njk' %}
+
+	</body>
+</html>
