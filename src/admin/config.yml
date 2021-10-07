@@ -23,7 +23,7 @@ collections:
     files:
       - label: "Home Page"
         name: "home"
-        file: "src/index.md"
+        file: "src/index.njk"
         fields:
           - {label: Main Title, name: heroTitle, widget: string}
           - {label: Sub Title, name: heroSubTitle, widget: string}
