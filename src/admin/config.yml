@@ -22,8 +22,8 @@ collections:
     name: "pages"
     files:
       - label: "Home Page"
-        name: "home"
-        file: "src/index.njk"
+        name: "pages"
+        file: "src/pages/index.md"
         fields:
           - {label: Main Title, name: heroTitle, widget: string}
           - {label: Sub Title, name: heroSubTitle, widget: string}
