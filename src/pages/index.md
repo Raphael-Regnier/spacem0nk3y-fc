@@ -1,4 +1,6 @@
 ---
+layout: 'block-hero.njk'
+tags: pages
 heroTitle: SpaceM0nk3y®
 heroSubTitle: The Atomic Template
 heroIntro: SpaceM0nk3y is Raphaël Regnier's atomic template for web projects. Using Nunjucks, SASS, 11ty and Netlify.
