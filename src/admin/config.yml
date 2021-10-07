@@ -18,3 +18,15 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "src/index.md"
+        fields:
+          - {label: Main Title, name: heroTitle, widget: string}
+          - {label: Sub Title, name: heroSubTitle, widget: string}
+          - {label: Intro, name: heroIntro, widget: markdown}
+          - {label: Main Image, name: heroImage, widget: image}
+          - {label: Main Image Caption, name: heroImageAlt, widget: string}
