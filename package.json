@@ -1,0 +1,24 @@
+{
+  "name": "spacem0nk3y-fc",
+  "version": "1.0.0",
+  "description": "These are the starting files used by [Raphaël Regnier](https://raphaelregnier.design) to create web projects. They are based on the blog project by [Kevin Powell](https://kevinpowell.co) featured in the tutorial link bellow.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raphael-Regnier/spacem0nk3y-fc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raphael-Regnier/spacem0nk3y-fc/issues"
+  },
+  "homepage": "https://github.com/Raphael-Regnier/spacem0nk3y-fc#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
